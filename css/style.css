@@ -135,6 +135,13 @@ li a {font-size:18px;}
 .sub-title{margin-bottom:80px;}
 .text-button{padding:20px 25px;background:#6a82fb;color:#fff;border-radius:8px;font-size:14px;font-weight:600;}
 .text-button:hover, .text-button:visited{color:#fff;}
+#welcomevideo{
+  position: fixed;
+  right: 0;
+  top: -40%;
+  max-width: 100%;
+  height: auto;
+  z-index:-1;}
 }
 
 a:link {text-decoration: none;}
@@ -142,9 +149,6 @@ a:hover {text-decoration: none;}
 a:visited {text-decoration: none;}
 
 .selector-for-some-widget {box-sizing: content-box;}
-
-
-
 
 .main{
 margin:88px 0;
