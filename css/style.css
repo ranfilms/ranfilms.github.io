@@ -76,12 +76,14 @@ li a:hover,li a:visited {
   width:50%;
 }
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
   display: block;
   transition: 0.3s;
+  padding: 10px 8px 10px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  font-weight:normal;
 }
 
 .sidenav a:hover {
@@ -154,22 +156,18 @@ overflow-wrap: keep-all!important;
 .main img{width:100%;}
 
 .ran-container{
-	padding-left:33px;
+	padding-left:30px;
 }
 
 .videoclip{
 overflow:hidden;
 display:block;
-width:100%;
-height:500px;
+text-align:center;
 }
 
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: -1;
-  min-width: 100%;
-  min-height: 100%;
+  position:fixed;
+  max-width: 100%;
   z-index:-1;
 }
 
@@ -177,5 +175,5 @@ height:500px;
 
 footer {display:block;padding-top:20px;padding-bottom:20px;position:fixed;bottom:0;}
 footer p{float:left; font-size:12.5px; color:#fff;line-height:20px;}
-footer a{color:#88929c;}
-footer a:hover, footer a:visited{color:#88929c;}
+footer a{color:#dee0e3;}
+footer a:hover, footer a:visited{color:#dee0e3;}
