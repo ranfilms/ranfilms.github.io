@@ -26,20 +26,13 @@
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
 <!--★Universal CSS★-->
 <link rel="stylesheet" href="css/aos.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/liststyle.css">
 <title>RanFilms</title>
 </head>
 
 
 
 <body class="bg">
-
-
-<div clss="videoclip">
-<video autoplay muted loop id="myVideo">
-<source src="cont/welcome.mp4" type="video/mp4">
-</video>
-</div>
 
 
 
@@ -60,7 +53,57 @@
 </ul>
 </nav>
 
+<div class="container">
+  <div class="inner-container">
 
+  <div class="card">
+    <h3 class="card-title">Way Down</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <img src="cont/mv/way-down-jason-zhang.png" height="200%">
+   </div>
+
+  <div class="card">
+    <h3 class="card-title">Pretty White Lie</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+<div clss="videoclip">
+    <video autoplay muted loop id="myVideo">
+    <source src="cont/welcome.mp4" type="video/mp4">
+    </video>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 class="card-title">Jump</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 class="card-title">Perfume</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 class="card-title">无药可救</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+  </div>
+
+</div>
+</div>
 
 
 
@@ -85,6 +128,17 @@ function openNav() {
 }
 function closeNav() {
   document.getElementById("id-sidenav").style.width = "0";
+}
+</script>
+<script>
+var figure = $("#myVideo").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
 }
 </script>
 <!--Side Nav ends-->
