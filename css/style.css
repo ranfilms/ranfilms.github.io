@@ -159,15 +159,12 @@ overflow-wrap: keep-all!important;
 	padding-left:30px;
 }
 
-.videoclip{
-overflow:hidden;
-display:block;
-text-align:center;
-}
-
-#myVideo {
-  position:fixed;
-  max-width: 100%;
+#welcomevideo {
+position: fixed;
+  right: 0;
+  top: -35%;
+  min-width: 166%;
+  min-height: 166%;
   z-index:-1;
 }
 
