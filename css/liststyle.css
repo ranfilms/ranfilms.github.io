@@ -72,10 +72,6 @@ li a:hover,li a:visited {
   transition: 0.3s;
   padding-top: 60px;
 }
-.sidenav img {
-  margin-bottom: 88px;
-  width:50%;
-}
 .sidenav a {
   display: block;
   transition: 0.3s;
@@ -85,6 +81,9 @@ li a:hover,li a:visited {
   color: #fff;
   font-family: 'Muli', sans-serif;
   font-weight:normal;
+}
+.sidenav img {
+  width:50%;
 }
 
 .sidenav a:hover {
@@ -170,57 +169,66 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 
 
 
-.videoclip{
-overflow:hidden;
-display:inline-block;
-text-align:center;
-}
 
 #myVideo {
   position:relative;
-  top:-66%;
-  left:-50%;
+  top:0;
+  left:0;
+  width: auto!important;
+  height: 100%!important;
   z-index:-1;
-  zoom:0%;
 }
 
-.card img{position:relative; z-index:-1; top:-66%;}
+.list-container{
+  margin-left:30px!important;
+  margin-right:30px!important;
+  text-align: center!important;
+}
 
-
-.inner-container {
-  position: absolute;
-  height: 300px;
-  width: 100%;
-  top: 40%;
-  left: 30px;
+.row{
+  display: -ms-flexbox; /* IE10 */
   display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.column{
+  -ms-flex: 33.333%; /* IE10 */
+  flex: 33.333%;
+  max-width: 33.333%;
+  padding: 0 0px;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .card {
-  display: flex;
-  width: 300px;
+  max-width: 100%;
   background-color: #17141d;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: -1rem 0 3rem #000;
 /*   margin-left: -50px; */
   transition: 0.4s ease-out;
-  position: relative;
+  vertical-align:middle;
+  position:relative;
+  display:flex;
   left: 0px;
   overflow:hidden;
 }
-
-.card:not(:first-child) {
-    margin-left: -50px;
-}
-
 .card:hover {
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
-}
-
-.card:hover ~ .card {
-  position: relative;
-  left: 50px;
+  transform: translateY(-22px);
   transition: 0.4s ease-out;
 }
 
@@ -232,8 +240,8 @@ text-align:center;
   position: absolute;
   left: 20px;
   top: 15px;
+  text-shadow: 0px 0px 3px rgba(17,19,20,0.8);
 }
-
 .bar {
   position: absolute;
   top: 100px;
@@ -241,13 +249,11 @@ text-align:center;
   height: 5px;
   width: 150px;
 }
-
 .emptybar {
   background-color: #2e3033;
   width: 100%;
   height: 100%;
 }
-
 .filledbar {
   position: absolute;
   top: 0px;
@@ -258,13 +264,10 @@ text-align:center;
   background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
   transition: 0.6s ease-out;
 }
-
 .card:hover .filledbar {
   width: 100%;
   transition: 0.4s ease-out;
 }
-
-
 .stroke {
   stroke: white;
   stroke-dasharray: 360;

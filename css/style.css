@@ -35,6 +35,7 @@ background-position: 80% 0%;}
 /*Nav Bar*/
 nav{
 	position:absolute;
+  z-index:1;
 }
 nav ul{
 	padding-left:30px;
