@@ -72,13 +72,13 @@ li a:hover,li a:visited {
   padding-top: 60px;
 }
 .sidenav img {
-  margin-bottom: 88px;
   width:50%;
 }
 .sidenav a {
   display: block;
   transition: 0.3s;
-  padding: 10px 8px 10px 30px;
+  padding: 0px 8px 0px 30px;
+  margin-bottom:40px;
   text-decoration: none;
   font-size: 18px;
   color: #fff;
@@ -95,7 +95,7 @@ li a:hover,li a:visited {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-top:45px;
+  margin-top:50px;
   margin-left: 50px;
 }
 
