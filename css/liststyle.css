@@ -31,22 +31,21 @@ background-size: auto 100%;
 background-position: 80% 0%;}
 }
 
-
 /*Nav Bar*/
+
 nav{
-	position:absolute;
   z-index:1;
 }
 nav ul{
-	padding-left:30px;
-	padding-top:40px;
-	padding-bottom:40px;
-	margin-bottom:20px;
-	overflow: hidden;
-	list-style: none;
+  padding-left:30px;
+  padding-top:77px;
+  padding-bottom:40px;
+  margin-bottom:20px;
+  overflow: hidden;
+  list-style: none;
 }
 li{
-	display:table; float:left;
+  display:table; float:left;
 }
 li a {
 display: inline-block;
@@ -58,13 +57,13 @@ vertical-align:middle;
 font-weight:600;
 }
 li a:hover,li a:visited {
-	color:#596469;text-decoration:none;
+  color:#596469;text-decoration:none;
 }
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top: 0;
   left: 0;
   background-color: #111314;
@@ -72,18 +71,19 @@ li a:hover,li a:visited {
   transition: 0.3s;
   padding-top: 60px;
 }
+.sidenav img {
+  width:30%;
+}
 .sidenav a {
   display: block;
   transition: 0.3s;
-  padding: 10px 8px 10px 30px;
+  padding: 0px 8px 0px 30px;
+  margin-bottom:40px;
   text-decoration: none;
   font-size: 18px;
   color: #fff;
   font-family: 'Muli', sans-serif;
   font-weight:normal;
-}
-.sidenav img {
-  width:50%;
 }
 
 .sidenav a:hover {
@@ -95,7 +95,7 @@ li a:hover,li a:visited {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-top:45px;
+  margin-top:50px;
   margin-left: 50px;
 }
 
@@ -113,7 +113,8 @@ h2 {font-size:40px; font-weight:bold; color:#353b3e;}
 h3 {font-size:40px; font-weight:700; color:#111314; line-height:40px;}
 p {font-size: 15px; font-weight:600; color:#353b3e; line-height:30px;}
 li a {font-size:20px;}
-.nav-li-a-logo img{height:20px;}
+.logo-container{max-width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:30px;}
+.logo-container img{position:fixed;height:88px;top:30px;}
 .big-title{margin-bottom:20px;}
 .sub-title{margin-bottom:0;}
 .text-button{padding:20px 30px;background:#6a82fb;color:#fff;border-radius:8px;font-size:15px;font-weight:600;}
@@ -129,7 +130,8 @@ h3 {font-size:30px; font-weight:700; color:#111314; line-height:35px;}
 p {font-size: 14px; font-weight:600; color:#353b3e; line-height:30px;} 
 li a {font-size:18px;}
 .headerspan-weak{color:#353b3e;}
-.nav-li-a-logo img{height:20px;}
+.logo-container {max-width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:0px;}
+.logo-container img{position:fixed;height:66px;top:25px;}
 .main{width:100%;}
 .big-title{margin-bottom:10px;}
 .sub-title{margin-bottom:80px;}
@@ -183,6 +185,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   margin-left:30px!important;
   margin-right:30px!important;
   text-align: center!important;
+  margin-bottom:100px;
 }
 
 .row{

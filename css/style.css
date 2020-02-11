@@ -33,13 +33,14 @@ background-position: 80% 0%;}
 
 
 /*Nav Bar*/
+
 nav{
 	position:absolute;
   z-index:1;
 }
 nav ul{
 	padding-left:30px;
-	padding-top:40px;
+	padding-top:77px;
 	padding-bottom:40px;
 	margin-bottom:20px;
 	overflow: hidden;
@@ -64,7 +65,7 @@ li a:hover,li a:visited {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top: 0;
   left: 0;
   background-color: #111314;
@@ -73,7 +74,7 @@ li a:hover,li a:visited {
   padding-top: 60px;
 }
 .sidenav img {
-  width:50%;
+  width:30%;
 }
 .sidenav a {
   display: block;
@@ -86,7 +87,6 @@ li a:hover,li a:visited {
   font-family: 'Muli', sans-serif;
   font-weight:normal;
 }
-
 
 .sidenav a:hover {
   color: #fff;
@@ -114,14 +114,15 @@ h2 {font-size:40px; font-weight:bold; color:#353b3e;}
 h3 {font-size:40px; font-weight:700; color:#111314; line-height:40px;}
 p {font-size: 15px; font-weight:600; color:#353b3e; line-height:30px;}
 li a {font-size:20px;}
-.nav-li-a-logo img{height:20px;}
+.logo-container{max-width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:30px;}
+.logo-container img{position:fixed;height:88px;top:30px;margin-left:-50px;}
 .big-title{margin-bottom:20px;}
 .sub-title{margin-bottom:0;}
 .text-button{padding:20px 30px;background:#6a82fb;color:#fff;border-radius:8px;font-size:15px;font-weight:600;}
 .text-button:hover, .text-button:visited{color:#fff;}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 
 mark{background-color:rgba(0,0,0,0);}
 h1 {font-size:35px; font-weight:bold; color:#353b3e;}
@@ -130,19 +131,14 @@ h3 {font-size:30px; font-weight:700; color:#111314; line-height:35px;}
 p {font-size: 14px; font-weight:600; color:#353b3e; line-height:30px;} 
 li a {font-size:18px;}
 .headerspan-weak{color:#353b3e;}
-.nav-li-a-logo img{height:20px;}
+.logo-container {max-width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:0px;}
+.logo-container img{position:fixed;height:66px;top:25px;margin-left:-18px;}
 .main{width:100%;}
 .big-title{margin-bottom:10px;}
 .sub-title{margin-bottom:80px;}
 .text-button{padding:20px 25px;background:#6a82fb;color:#fff;border-radius:8px;font-size:14px;font-weight:600;}
 .text-button:hover, .text-button:visited{color:#fff;}
-#welcomevideo{
-  position: fixed;
-  right: 0;
-  top: -40%;
-  max-width: 100%;
-  height: auto;
-  z-index:-1;}
+.card h3{font-size:15px;}
 }
 
 a:link {text-decoration: none;}
