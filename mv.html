@@ -27,12 +27,19 @@
 <!--★Universal CSS★-->
 <link rel="stylesheet" href="css/aos.css">
 <link rel="stylesheet" href="css/liststyle.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <title>RanFilms</title>
 </head>
 
 
 
 <body class="bg">
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
 
 
 
@@ -151,6 +158,11 @@
 
 
 <!-- Optional JavaScript -->
+<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+</script>
 
 <!--Side-Nav begins-->
 <script>
