@@ -132,7 +132,15 @@ p {font-size: 14px; font-weight:600; color:#353b3e; line-height:30px;}
 li a {font-size:18px;}
 .headerspan-weak{color:#353b3e;}
 .logo-container {max-width:100%;text-align:center;margin-left:auto;margin-right:auto;margin-bottom:0px;}
-.logo-container img{position:fixed;height:66px;top:25px;margin-left:-18px;}
+.logo-container img{position:fixed;height:66px;top:25px;margin-left:-25px;}
+#welcomevideo {
+position: fixed;
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index:-1;
+}
 .main{width:100%;}
 .big-title{margin-bottom:10px;}
 .sub-title{margin-bottom:80px;}
