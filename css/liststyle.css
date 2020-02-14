@@ -75,7 +75,7 @@ color: #fff;
 /*Nav Bar*/
 
 nav{
-  z-index:1;
+  z-index:5;
 }
 nav ul{
   padding-left:30px;
@@ -271,6 +271,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   position:relative;
   display:flex;
   left: 0px;
+  
   overflow:hidden;
 }
 .card:hover {
@@ -302,6 +303,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   text-shadow: 0px 0px 3px rgba(17,19,20,0.8);
 }
 .view-button:hover{color:white;}
+
 .bar {
   position: absolute;
   top: 100px;
