@@ -229,7 +229,10 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 
 
 .videotitle-container{
-  margin-left:30px;
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 }
 
 .video-title {
@@ -241,7 +244,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   
 }
 #singlevideo {
-  width: auto!important;
+  width: auto;
   height: 500px;
   border: none;
   box-shadow: none;
@@ -258,18 +261,16 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   margin-top:0;}
 
 @media screen and (max-width: 950px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+#singlevideo {
+  width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
 }
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+  .videotitle-container{
+  margin-top:88px;}
 }
 
 
