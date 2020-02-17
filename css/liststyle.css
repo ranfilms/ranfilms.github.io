@@ -267,7 +267,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   box-shadow: -1rem 0 3rem #000;
 /*   margin-left: -50px; */
   transition: 0.4s ease-out;
-  vertical-align:middle;
+  vertical-align:middle; 
   position:relative;
   display:flex;
   left: 0px;
