@@ -240,9 +240,14 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   color: white;
   font-family: 'Muli', sans-serif;
   font-weight: 300;
-  font-size:20px;
+  font-size:30px;
   position: relative;
-  
+}
+.video-description{
+  color:#dee0e3;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size:15px;
 }
 #singlevideo {
   width: auto;
@@ -272,6 +277,8 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 @media screen and (max-width: 600px) {
   .videotitle-container{
   margin-top:88px;}
+  .video-title{font-size:22px;}
+.video-description{font-size:13.5px;}
 }
 
 
