@@ -256,21 +256,6 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 
   padding: 0 0px;
 }
-@media screen and (max-width: 950px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 .card {
   max-width: 100%;
   height:300px;
@@ -283,7 +268,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   position:relative;
   display:flex;
   left: 0px;
-  
+  text-align:left; 
   overflow:hidden;
 }
 .card:hover {
@@ -353,3 +338,29 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   transition: 0.6s ease-out;
 }
 
+@media screen and (max-width: 950px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+    .card {
+    height:200px;
+  }
+  .card-title{font-size:15px;
+    left: 15px;
+    top: 8px;
+}
+.view-button,.filledbar, .bar{display:none;}
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .card {
+    height:180px;
+  }
+  .card-title{font-size:15px;}
+}
