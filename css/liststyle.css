@@ -351,7 +351,11 @@ footer a:hover, footer a:visited{color:#dee0e3;}
     left: 15px;
     top: 8px;
 }
-.view-button,.filledbar, .bar{display:none;}
+.view-button{
+  left:15px;
+  padding:font-size:10px;
+}
+.filledbar, .bar{display:none;}
 }
 @media screen and (max-width: 600px) {
   .column {
