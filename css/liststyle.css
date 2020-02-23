@@ -362,6 +362,9 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 .filledbar, .bar{display:none;}
 }
 @media screen and (max-width: 600px) {
+  .sidenav img {
+  width:20%;
+}
   .pagination{
     margin-top:40px;
     margin-bottom:20px;

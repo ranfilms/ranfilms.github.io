@@ -279,12 +279,15 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 }
 
 @media screen and (max-width: 600px) {
+  .sidenav img {
+  width:20%;
+}
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
   .column img{
-    height:120px;
-  }
+  height:120px;
+}
 }
