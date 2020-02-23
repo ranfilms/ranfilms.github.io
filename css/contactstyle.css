@@ -260,7 +260,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 }
 .column h3{
 margin-top:80px;
-margin-bottom:20px;
+margin-bottom:30px;
 color:#fff;
 font-size:30px;
 font-family: 'Muli', sans-serif;
@@ -269,6 +269,7 @@ font-family: 'Muli', sans-serif;
   color:#dee0e3;
   font-size:15px;
   font-family: 'muli', sans-serif;
+  line-height:18px;
 }
 
 @media screen and (max-width: 950px) {
@@ -285,6 +286,7 @@ font-family: 'Muli', sans-serif;
     flex: 100%;
     max-width: 100%;
   }
+  .column h3{font-size:20px;}
 }
 
 .column img{
