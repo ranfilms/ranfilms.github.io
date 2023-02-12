@@ -229,8 +229,9 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   top:0;
   left:0;
   width: auto!important;
-  height: 100%!important;
+  height: 160%!important;
   z-index:-1;
+  overflow:hidden;
 }
 
 .list-container{
@@ -253,7 +254,6 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   -ms-flex: 33.3%; /* IE10 */
   flex: 33.3%;
   max-width: 33.3%;
-
   padding: 0 0px;
 }
 .card {
