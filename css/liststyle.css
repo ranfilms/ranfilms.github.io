@@ -238,6 +238,7 @@ footer a:hover, footer a:visited{color:#dee0e3;}
   margin-right:30px!important;
   text-align: center!important;
   margin-bottom:100px;
+  padding-bottom:10rem;
 }
 
 .row{
@@ -249,9 +250,9 @@ footer a:hover, footer a:visited{color:#dee0e3;}
 }
 
 .column{
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 33.3%; /* IE10 */
+  flex: 33.3%;
+  max-width: 33.3%;
 
   padding: 0 0px;
 }
@@ -376,9 +377,9 @@ footer a:hover, footer a:visited{color:#dee0e3;}
     margin: 0 2px;
 }
   .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
   .card {
     height:180px;
